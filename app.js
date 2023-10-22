@@ -20,7 +20,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: 'https://movie-explorer.nomoredomainsrocks.ru',
+    origin: 'https://movie-explorer.nomoredomainsrocks.ru/',
   }),
 );
 app.use(helmet());
